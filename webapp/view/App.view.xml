@@ -1,0 +1,29 @@
+<mvc:View controllerName="de.blogspot.openui5.awesomecloud.controller.App" displayBlock="true"
+	xmlns:awe="de.blogspot.openui5.awesomecloud.control"
+	xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+	<App>
+		<pages>
+			<Page title="{i18n>title}" enableScrolling="false">
+				<headerContent>
+					<Button icon="sap-icon://refresh" press="onRefresh" />
+				</headerContent>
+				<content>
+					<awe:Cloud id="AwesomeCloud" width="100%" height="100%" words="{/words}">
+						<awe:words>
+							<awe:Word text="{text}" weight="{weight}" />
+						</awe:words>	
+						<!--
+						<awe:words>
+							<awe:Word text="word" weight="14" />
+							<awe:Word text="another" weight="5" />
+							<awe:Word text="things" weight="7" />
+							<awe:Word text="super" weight="23" />
+							<awe:Word text="cloud" weight="10" />
+						</awe:words>
+						-->
+					</awe:Cloud>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

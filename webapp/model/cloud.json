@@ -1,0 +1,31 @@
+{
+	"words" : [
+		{ "text" : "applications", "weight" : 3 },
+		{ "text" : "binding", "weight" : 1 },
+		{ "text" : "browser", "weight" : 3 },
+		{ "text" : "build", "weight" : 1 },
+		{ "text" : "controls", "weight" : 2 },
+		{ "text" : "devices", "weight" : 3 },
+		{ "text" : "desktop", "weight" : 1 },
+		{ "text" : "mobile", "weight" : 2 },
+		{ "text" : "phone", "weight" : 1 },
+		{ "text" : "tablet", "weight" : 2 },
+		{ "text" : "responsive", "weight" : 5 },
+		{ "text" : "enterprise-ready", "weight" : 1 },
+		{ "text" : "free", "weight" : 1 },
+		{ "text" : "features", "weight" : 1 },
+		{ "text" : "JavaScript", "weight" : 2 },
+		{ "text" : "jQuery", "weight" : 2 },
+		{ "text" : "library", "weight" : 1 },
+		{ "text" : "license", "weight" : 1 },
+		{ "text" : "OpenSource", "weight" : 2 },
+		{ "text" : "OpenUI5", "weight" : 5 },
+		{ "text" : "SAPUI5", "weight" : 5 },
+		{ "text" : "User Experience", "weight" : 1 },
+		{ "text" : "UX", "weight" : 2 },
+		{ "text" : "UI", "weight" : 1 },
+		{ "text" : "SAP", "weight" : 3 },
+		{ "text" : "web", "weight" : 1 },
+		{ "text" : "grunt", "weight" : 1 }
+	]
+}
