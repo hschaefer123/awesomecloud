@@ -1,11 +1,5 @@
-/*!
- * Flickity v2.x UI5 component
- * http://flickity.metafizzy.co/
- * Touch, responsive, flickable carousel UI5 component
- * (c) Copyright 2016 UNIORG Solutions GmbH (8 Developer Team Licence).
- */
- 
-// Provides control uniorg.m.flickity.Gallery.
+// Provides control de.blogspot.openui5.awesomecloud.control.Cloud
+// https://github.com/metaloha/jQuery.awesomeCloud.plugin
 sap.ui.define([
     "sap/ui/core/Control",
     "jquery.sap.global",
@@ -55,7 +49,6 @@ sap.ui.define([
             }
             oRm.writeClasses();
             oRm.writeStyles();
-            //oRm.writeAttribute("tabindex", "-1");
             oRm.write(">");
             
             // render cells aggregation
@@ -68,26 +61,7 @@ sap.ui.define([
 		},
 			
 		/**
-		 * destroy flickity
-		 */
-		onBeforeRendering : function() {
-			/*
-			if (this._$Flickity && this._$Flickity.data("flickity")) {
-			    // unbind event listener
-			    this._$Flickity.off("select.flickity", this.onCellSelect);
-				this._$Flickity.off("settle.flickity", this.onCellSettleSelect);
-			    this._$Flickity.off( "staticClick.flickity", this.onStaticCellPress);
-				this._$Flickity.flickity("destroy");
-				this._$Flickity = null;
-			}
-			*/
-			if (Control.prototype.onBeforeRendering) {
-				Control.prototype.onBeforeRendering.apply(this, arguments);
-			}
-		},
-
-		/**
-		 * initialize flickity
+		 * after rendering
 		 */
 		onAfterRendering : function() {
 			if (Control.prototype.onAfterRendering) {
@@ -100,6 +74,10 @@ sap.ui.define([
 		},
 		
 		refresh : function() {
+			// lib does not garbage collect on recreate -> do it manually
+			$(".uoMAwesomeCloud canvas").remove();
+			
+			// initialize word cloud
 			this.$().awesomeCloud(this.getConfig());
 		},
 
