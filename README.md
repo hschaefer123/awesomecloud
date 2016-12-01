@@ -1,5 +1,5 @@
 # Awesome Cloud
-## [OpenUI5 Developer Blog](http://openui5.blogspot.com/2016/12/advent-calendar.html)
+## [OpenUI5 Developer Blog](http://openui5.blogspot.com/2016/11/awesome-cloud.html)
 
 > UI5 demo using a custom viewer control to generate a word cloud.
 > 
