@@ -5,7 +5,7 @@
 > 
 > Based on [awesomeCloud - jQuery Plugin](https://github.com/metaloha/jQuery.awesomeCloud.plugin) jquery plugin.
 
-### [Online Demo (on SAP HCP)](https://awesomecloud-p1940953245trial.dispatcher.hanatrial.ondemand.com/index.html)
+### [Online Demo (SAP HCP)](https://awesomecloud-p1940953245trial.dispatcher.hanatrial.ondemand.com/index.html)
 
 ![Screenshot](awesomecloud.png)
 
