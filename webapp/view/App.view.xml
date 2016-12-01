@@ -11,15 +11,6 @@
 						<awe:words>
 							<awe:Word text="{text}" weight="{weight}" />
 						</awe:words>	
-						<!--
-						<awe:words>
-							<awe:Word text="word" weight="14" />
-							<awe:Word text="another" weight="5" />
-							<awe:Word text="things" weight="7" />
-							<awe:Word text="super" weight="23" />
-							<awe:Word text="cloud" weight="10" />
-						</awe:words>
-						-->
 					</awe:Cloud>
 				</content>
 			</Page>
