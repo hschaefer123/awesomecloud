@@ -1,15 +1,13 @@
-#OpenUI5 Developer Awesome Cloud
+# Awesome Cloud
+## [OpenUI5 Developer Blog](http://openui5.blogspot.com/2016/11/awesome-cloud.html)
 
-OpenUI5 Demo showing a control generating a word cloud.
+> UI5 demo using a custom viewer control to generate a word cloud.
+> 
+> Based on [awesomeCloud - jQuery Plugin](https://github.com/metaloha/jQuery.awesomeCloud.plugin) jquery plugin.
 
-This is the corresponsing repository for my
-[OpenUI5 Developer Blog](http://openui5.blogspot.com/2016/11/awesome-cloud.html)!
+![Screenshot](awesomecloud.png)
 
-The app is a small example of creating a custom control using a word cloud jquery plugin.
-[awesomeCloud - jQuery Plugin]https://github.com/metaloha/jQuery.awesomeCloud.plugin
-
-Online Demo (on SAP HCP)
-https://awesomecloud-p1940953245trial.dispatcher.hanatrial.ondemand.com/index.html
+### [Online Demo (on SAP HCP)](https://awesomecloud-p1940953245trial.dispatcher.hanatrial.ondemand.com/index.html)
 
 ### Highlights
 
