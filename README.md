@@ -7,7 +7,7 @@
 
 ### [Online Demo (SAP HCP)](https://awesomecloud-p1940953245trial.dispatcher.hanatrial.ondemand.com/index.html)
 
-![Screenshot](awesomecloud.png)
+![Screenshot](./awesomecloud.png)
 
 ### Highlights
 
